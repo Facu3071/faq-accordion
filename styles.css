@@ -81,11 +81,14 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 0.9rem;
-  font-weight: 400;
   cursor: pointer;
   transition: all 0.2s;
 }
-.question-title p:hover {
+.question-title h4 {
+  color: var(--very-dark-grayish-blue);
+  font-weight: 400;
+}
+.question-title h4:hover {
   color: var(--soft-red);
 }
 .question-text {
